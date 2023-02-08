@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Matematik
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            DortIslem dortIslem = new DortIslem();
+            dortIslem.Topla(6,9);
+            dortIslem.Topla(5,6);
+
+            Console.ReadKey();
+
+
+
+
+
+        }
+    }
+} 
+
+
+
+
+
